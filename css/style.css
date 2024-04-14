@@ -1,0 +1,95 @@
+body {
+    background-color: rgba(0, 232, 248, 0.774);
+    text-align: center;
+}
+h1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-stretch: extra-expanded;
+    font-size: xx-large;
+    font-weight: 1000;
+    
+    
+}
+h2{
+font-size: x- large;
+text-align: center;
+}
+
+p{
+    margin-top: 1%;
+    font-size: large;
+    padding: 0.5%;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+li{
+font-size: larger;
+text-align: center;
+
+}
+
+h3{
+   text-align: left; 
+   color: black;
+   font-size: medium;
+   margin-left: 5%;
+   float: left;
+    
+}
+h4{
+    text-align: right;
+    color: black;
+ 
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container img {
+    max-width: 48%;
+}
+
+.image-container figure {
+    text-align: center;
+    width: 48%; 
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff; /
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 23, 235); 
+}
+
+.divprueba {
+    margin: 4%;
+    display: inline-block;
+padding: 10%;
+background-color: aquamarine;
+}
